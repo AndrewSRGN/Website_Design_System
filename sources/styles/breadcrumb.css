@@ -1,0 +1,96 @@
+.breadcrumb {
+    padding: 0;
+}
+
+.breadcrumb li {
+    list-style: none;
+    display: inline-block;
+    background-color: #2d5dcc;
+    color: white;
+    padding: 5px;
+
+
+    position: relative;
+}
+
+.breadcrumb .breadcrumb__location+.breadcrumb__location {
+    margin-left: 10px;
+}
+
+.breadcrumb .breadcrumb__attribute+.breadcrumb__location {
+    margin-left: 10px;
+}
+
+.breadcrumb .breadcrumb__location+.breadcrumb__attribute {
+    margin-left: 7px;
+}
+
+.breadcrumb .breadcrumb__attribute+.breadcrumb__attribute {
+    margin-left: 10px;
+}
+
+.breadcrumb li::before,
+.breadcrumb li::after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    border-right: 15px solid transparent;
+}
+
+.breadcrumb .breadcrumb__location::before {
+    left: -9px;
+    border-top: 15px solid #2d5dcc;
+    border-bottom: 15px solid #2d5dcc;
+    border-left: 10px solid #2d5dcc;
+}
+
+.breadcrumb .breadcrumb__location+.breadcrumb__location::before {
+    left: -10px;
+    border-top: 15px solid #2d5dcc;
+    border-bottom: 15px solid #2d5dcc;
+    border-left: 10px solid transparent;
+}
+
+.breadcrumb .breadcrumb__location+.breadcrumb__attribute::before {
+    left: -10px;
+    border-top: 15px solid #FF7722;
+    border-bottom: 15px solid #FF7722;
+    border-left: 10px solid transparent;
+}
+
+.breadcrumb .breadcrumb__attribute+.breadcrumb__location::before {
+    left: -10px;
+    border-top: 15px solid #2d5dcc;
+    border-bottom: 15px solid #2d5dcc;
+    border-left: 10px solid transparent;
+}
+
+.breadcrumb .breadcrumb__attribute+.breadcrumb__attribute::before {
+    left: -10px;
+    border-top: 15px solid #FF7722;
+    border-bottom: 15px solid #FF7722;
+    border-left: 10px solid transparent;
+}
+
+
+.breadcrumb .breadcrumb__location::after {
+    right: -24px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 10px solid #2d5dcc;
+}
+
+
+
+.breadcrumb .breadcrumb__attribute {
+    position: relative;
+    background-color: #FF7722;
+}
+
+
+.breadcrumb .breadcrumb__attribute::after {
+    right: -24px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 10px solid #FF7722;
+}

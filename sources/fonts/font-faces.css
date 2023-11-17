@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Nanito Sans";
+    src: url("../fonts/NunitoSans/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf") format("truetupe");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Merriweather";
+    src: url("../fonts/Merriweather/Merriweather-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Kdam Thmor Pro";
+    src: url("../fonts/KdamThmorPro/KdamThmorPro-Regular.ttf") format("truetype");
+}

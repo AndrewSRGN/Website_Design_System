@@ -1,0 +1,130 @@
+/* BODY */
+body {
+    width: 1200px;
+    margin: 0 auto;
+
+    font-family: "Nanito Sans", sans-serif;
+}
+
+/* HEADINGS */
+h1 {
+    font-weight: bold;
+    font-size: 26px;
+    font-family: "kdam Thmor Pro", sans-serif;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 20px;
+    font-family: "Nanito Sans", sans-serif;
+}
+
+/* PARAGRAPH */
+p {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Nanito Sans", sans-serif;
+}
+
+/* SECTION */
+section {
+    border: 2px solid rgb(141, 141, 141);
+
+    padding: 0 10px;
+    margin: 20px 0;
+}
+
+/* DETAILS */
+details {
+    margin: 10px 0;
+}
+
+details summary::before {
+    content: 'Show';
+}
+
+details[open] summary::before {
+    content: 'Hide';
+}
+
+/* COLORS */
+.colors__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.color-item {
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 10px 5px;
+    width: 277.5px;
+    height: 100px;
+
+    vertical-align: super;
+    text-align: center;
+}
+
+
+.color-item--cool-blue {
+    background-color: #2d5dcc;
+    color: white;
+}
+
+.color-item--pink {
+    background-color: #d957d9;
+    color: black;
+}
+
+.color-item--mint-green {
+    background-color: #4fe0b0;
+    color: black;
+}
+
+.color-item--biege {
+    background-color: #f3904d;
+    color: black;
+}
+
+.color-item--indian-orange {
+    background-color: #FF7722;
+    color: white;
+}
+
+
+/* FONTS */
+
+.font-item__name {
+    text-decoration: underline;
+    font-style: normal;
+    font-weight: normal ;
+    font-size: 1.2em;
+}
+
+.font-item li {
+    list-style: none;
+}
+
+.font-item__text--bold {
+    font-weight: bold;
+}
+
+.font-item__text--italic {
+    font-style: italic;
+}
+
+.font-item__text--roboto {
+    font-family: "Roboto", sans-serif;
+}
+
+.font-item__text--nanito-sans {
+    font-family: "Nanito Sans", sans-serif;
+}
+
+.font-item__text--kdam-thmor-pro {
+    font-family: "Kdam Thmor Pro", serif;
+}
+
+.font-item__text--merriweather {
+    font-family: "Merriweather", serif;
+}
